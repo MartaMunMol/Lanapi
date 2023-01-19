@@ -229,9 +229,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\marta\\OneDrive\\Escritorio\\Marta\\FEMCODERS\\PROYECTOS INDIVIDUALES\\02 Lanapi\\LanapiWebApi\\WebApplication1\\WebApplication1.csproj",
-      "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\marta\\OneDrive\\Escritorio\\Marta\\FEMCODERS\\PROYECTOS INDIVIDUALES\\02 Lanapi\\LanapiWebApi\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\marta\\OneDrive\\Escritorio\\Marta\\FEMCODERS\\PROYECTOS INDIVIDUALES\\02 Lanapi\\LanapiWebApi\\WebApplication1\\APIService.csproj",
+      "projectName": "APIService",
+      "projectPath": "C:\\Users\\marta\\OneDrive\\Escritorio\\Marta\\FEMCODERS\\PROYECTOS INDIVIDUALES\\02 Lanapi\\LanapiWebApi\\WebApplication1\\APIService.csproj",
       "packagesPath": "C:\\Users\\marta\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\marta\\OneDrive\\Escritorio\\Marta\\FEMCODERS\\PROYECTOS INDIVIDUALES\\02 Lanapi\\LanapiWebApi\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",
