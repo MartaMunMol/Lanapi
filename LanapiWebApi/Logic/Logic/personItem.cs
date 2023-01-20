@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logic.Logic
 {
-    internal class UserLogic
+    internal class personItem
     {
     }
 }

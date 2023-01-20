@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logic.Ilogic
 {
-    internal class IProductLogic
+    internal class IorderItem
     {
     }
 }

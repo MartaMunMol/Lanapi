@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Logic.Logic
+namespace Entities.Entities
 {
-    internal class OrderLogic
+    internal class orderItem
     {
     }
 }
