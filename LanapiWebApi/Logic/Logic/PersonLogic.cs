@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Logic.Ilogic
+namespace Logic.Logic
 {
-    internal class IpersonItem
+    internal class PersonLogic
     {
     }
 }

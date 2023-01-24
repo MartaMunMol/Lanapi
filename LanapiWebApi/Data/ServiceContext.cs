@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Logic.Ilogic
+namespace Data
 {
-    internal class IUsersItem
+    public class ServiceContext
     {
     }
 }

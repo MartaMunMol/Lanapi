@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Entities
 {
-    public class productItem
+    public class ProductItem
     {
         public ProductItem()
         {
@@ -15,12 +15,12 @@ namespace Entities.Entities
         }
         public int Id { get; set; }
         public Guid IdWeb { get; set; }
-        public bool IsActive { get; private set; }
-        public bool IsPublic { get; private set; }
         public string Name { get; set; }
         public string Type { get; set; }
         public string  Brand { get; set; }
         public decimal Price { get; set; }
+        public bool IsActive { get; private set; }
+        public bool IsPublic { get; private set; }
     }
 }
 }
