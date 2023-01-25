@@ -1,6 +1,9 @@
-﻿namespace APIService.IServices
+﻿using Entities.Entities;
+
+namespace APIService.IServices
 {
-    public class IProductService
+    public interface IProductService
     {
+        int InsertProduct(ProductItem productItem)
     }
 }

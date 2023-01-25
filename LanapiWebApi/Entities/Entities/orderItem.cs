@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Entities
 {
-    public class orderItem
+    public class OrderItem
     {
         public int Id { get; set; }
         public Guid IWeb { get; set; }

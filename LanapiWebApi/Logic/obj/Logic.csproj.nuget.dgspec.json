@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\marta\\OneDrive\\Escritorio\\Marta\\FEMCODERS\\PROYECTOS INDIVIDUALES\\02 Lanapi\\LanapiWebApi\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\marta\\OneDrive\\Escritorio\\Marta\\FEMCODERS\\PROYECTOS INDIVIDUALES\\02 Lanapi\\LanapiWebApi\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

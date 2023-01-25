@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entities.Entities
 {
-    public class EmployeeItem : personItem
+    public class EmployeeItem : PersonItem
     {
     public EmployeeItem() { }
     public decimal Salary { get; set; }

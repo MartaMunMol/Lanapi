@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Logic.Logic
 {
-    internal class orderItem
+    internal class OrderItem
     {
     }
 }

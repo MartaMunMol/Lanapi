@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Entities.Entities
 {
-    public class personItem
+    public class PersonItem
     {
-        public personItem() { }
+        public PersonItem() { }
         public int Id { get; set; }
         public Guid IdWeb { get; set; }
         public string DNI { get; set; }

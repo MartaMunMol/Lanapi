@@ -1192,6 +1192,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2",
           "Microsoft.Extensions.Configuration": "7.0.0",

@@ -23,4 +23,3 @@ namespace Entities.Entities
         public bool IsPublic { get; private set; }
     }
 }
-}

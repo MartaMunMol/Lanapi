@@ -1277,6 +1277,20 @@
             "rid": "win"
           }
         }
+      },
+      "Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
+        },
+        "compile": {
+          "bin/placeholder/Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entities.dll": {}
+        }
       }
     }
   },
@@ -3786,10 +3800,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Entities/1.0.0": {
+      "type": "project",
+      "path": "../Entities/Entities.csproj",
+      "msbuildProject": "../Entities/Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.2",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.2",
@@ -3823,7 +3843,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\marta\\OneDrive\\Escritorio\\Marta\\FEMCODERS\\PROYECTOS INDIVIDUALES\\02 Lanapi\\LanapiWebApi\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\marta\\OneDrive\\Escritorio\\Marta\\FEMCODERS\\PROYECTOS INDIVIDUALES\\02 Lanapi\\LanapiWebApi\\Entities\\Entities.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
