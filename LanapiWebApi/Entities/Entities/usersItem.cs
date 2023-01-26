@@ -13,7 +13,7 @@ namespace Entities.Entities
         }
         public int Id { get; set; }
         public string UserName { get; set; }
-        public string IdRol { get; set; }
+        public string UserRol { get; set; }
         public bool IsActive { get; }
     }
 }

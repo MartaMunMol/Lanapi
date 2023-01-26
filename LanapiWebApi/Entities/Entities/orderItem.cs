@@ -9,8 +9,8 @@ namespace Entities.Entities
     public class OrderItem
     {
         public int Id { get; set; }
-        public Guid IWeb { get; set; }
-        public string ProductId { get; set; }
+        public Guid IdWeb { get; set; }
+        public int ProductForeignKey { get; set; }
         public int Amount { get; set; }
         public DateTime OrderDate { get; set; }
         public DateTime DeliveryDate { get; set; }

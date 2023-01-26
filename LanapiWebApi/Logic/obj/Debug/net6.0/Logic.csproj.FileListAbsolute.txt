@@ -1,0 +1,17 @@
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\obj\Debug\net6.0\Logic.csproj.AssemblyReference.cache
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\obj\Debug\net6.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\obj\Debug\net6.0\Logic.AssemblyInfoInputs.cache
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\obj\Debug\net6.0\Logic.AssemblyInfo.cs
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\obj\Debug\net6.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\bin\Debug\net6.0\Logic.deps.json
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\bin\Debug\net6.0\Logic.dll
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\bin\Debug\net6.0\Logic.pdb
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\bin\Debug\net6.0\Data.dll
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\bin\Debug\net6.0\Entities.dll
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\bin\Debug\net6.0\Data.pdb
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\bin\Debug\net6.0\Entities.pdb
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\obj\Debug\net6.0\Logic.csproj.CopyComplete
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\obj\Debug\net6.0\Logic.dll
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\obj\Debug\net6.0\refint\Logic.dll
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\obj\Debug\net6.0\Logic.pdb
+C:\Users\marta\OneDrive\Escritorio\Marta\FEMCODERS\PROYECTOS INDIVIDUALES\02 Lanapi\LanapiWebApi\Logic\obj\Debug\net6.0\ref\Logic.dll

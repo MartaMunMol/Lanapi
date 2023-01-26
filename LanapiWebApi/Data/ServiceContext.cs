@@ -21,8 +21,7 @@ namespace Data
             builder.Entity<OrderItem>()
                 .ToTable("Orders")
                 .HasOne<ProductItem>()
-                .WithMany()
-                .HasForeignKey(o => o.ProductId);
+                .WithMany();
             builder.Entity<PersonItem>()
                 .ToTable("Persons");
             builder.Entity<UsersItem>()
@@ -47,3 +46,4 @@ namespace Data
         }
     }
 }
+

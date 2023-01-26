@@ -4,6 +4,6 @@ namespace APIService.IServices
 {
     public interface IProductService
     {
-        int InsertProduct(ProductItem productItem)
+        int InsertProduct(ProductItem productItem);
     }
 }

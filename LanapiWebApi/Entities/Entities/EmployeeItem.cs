@@ -10,7 +10,7 @@ namespace Entities.Entities
     {
     public EmployeeItem() { }
     public decimal Salary { get; set; }
-    public int CompanyId { get; set; }
+    public int CompanyName { get; set; }
 
     }
 }
