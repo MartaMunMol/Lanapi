@@ -22,6 +22,12 @@ namespace APIService.Controllers
             return _orderService.InsertOrder(orderItem);
         }
 
-        [HttpGet(Name = "GetOrderEntity")]
+        [HttpGet(Name ="GetOrderItem")]
+        public List<OrderItem> Get()
+        {
+            return _orderService.GetOrderItem();
+        }
+
+
     }
 }

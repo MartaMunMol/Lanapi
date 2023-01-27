@@ -16,5 +16,11 @@ namespace APIService.Services
             _orderLogic.InsertOrderItem(orderitem);
             return orderitem.Id;
         }
+        public List<OrderItem> GetOrderItem()
+        {
+            return _orderLogic.GetOrderItem();     
+        }
+
     }
 }
+

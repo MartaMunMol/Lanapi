@@ -9,6 +9,7 @@ namespace Logic.Ilogic
 {
     public interface IOrderLogic
     {
+        List<OrderItem> GetOrderItem();
         void InsertOrderItem(OrderItem orderItem);
     }
 }
