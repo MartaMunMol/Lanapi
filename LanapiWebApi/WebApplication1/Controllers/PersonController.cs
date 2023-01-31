@@ -3,6 +3,7 @@ using APIService.IServices;
 using APIService.Services;
 using Entities.Entities;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Authentication;
 
 namespace APIService.Controllers
 {
@@ -29,5 +30,20 @@ namespace APIService.Controllers
         {
             return _personService.GetPersonItem();
         }
+
+        [HttpDelete(Name = "DeletePerson")]
+        public void Delete([FromHeader] string userName, [FromHeader] string userPassword, [FromQuery] int id)
+        {
+            //var validCredentials = _securityService.ValidateUserCredentials(userName, userPassword, 1);
+            //if (validCredentials == true)
+            //{
+                _personService.DeletePerson(id);
+            //}
+            //else
+            //{
+            //    throw new InvalidCredentialException();
+            //}
+        }
+
     }
 }

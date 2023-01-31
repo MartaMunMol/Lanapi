@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entities.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +9,10 @@ namespace Entities.Entities
 {
     public class PersonItem
     {
-        public PersonItem() { }
+        public PersonItem()
+        {
+           IsActive = true;
+        }
         public int Id { get; set; }
         public Guid IdWeb { get; set; }
         public string DNI { get; set; }
@@ -17,6 +21,10 @@ namespace Entities.Entities
         public string Email { get; set; }
         public string Phone { get; set; }
         public DateTime Birthday { get; set; }
+        public bool IsActive { get; set; }
+
         
     }
 }
+
+

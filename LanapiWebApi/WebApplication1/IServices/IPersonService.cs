@@ -7,5 +7,6 @@ namespace APIService.IServices
         int InsertPerson(PersonItem personItem);
 
         List<PersonItem> GetPersonItem();
+        void DeletePerson(int id);
     }
 }

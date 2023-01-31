@@ -22,9 +22,17 @@ namespace Logic.Logic
         public List<PersonItem> GetPersonItem()
         {
             return _serviceContext.Set<PersonItem>().ToList();
-
-            //var resultList = new List<OrderItem>();
-            //return resultList();
         }
+        public void DeletePerson(int id)
+        {
+            var personToDelete = _serviceContext.Set<PersonItem>()
+                 .Where(u => u.Id == id).First();
+
+            personToDelete.IsActive = false;
+
+            _serviceContext.SaveChanges();
+
+        }
+
     }
 }

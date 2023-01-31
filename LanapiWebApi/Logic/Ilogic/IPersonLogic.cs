@@ -12,5 +12,7 @@ namespace Logic.Ilogic
         void InsertPersonItem(PersonItem personItem);
 
         List<PersonItem> GetPersonItem();
+        void DeletePerson(int id);
+
     }
 }

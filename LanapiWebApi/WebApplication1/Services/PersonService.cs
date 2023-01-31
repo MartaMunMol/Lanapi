@@ -23,5 +23,11 @@ namespace APIService.Services
         {
             return _personLogic.GetPersonItem();
         }
+
+        public void DeletePerson(int id)
+        {
+            _personLogic.DeletePerson(id);
+        }
+
     }
 }
