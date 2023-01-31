@@ -10,5 +10,6 @@ namespace Logic.Ilogic
     public interface IProductLogic
     {
         void InsertProductItem(ProductItem productItem);
+        List<ProductItem> GetProductItem();
     }
 }

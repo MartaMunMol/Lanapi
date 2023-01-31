@@ -5,5 +5,7 @@ namespace APIService.IServices
     public interface IProductService
     {
         int InsertProduct(ProductItem productItem);
+        List<ProductItem> GetProductItem();
     }
 }
+

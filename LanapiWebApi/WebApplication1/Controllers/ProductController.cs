@@ -22,5 +22,11 @@ namespace APIService.Controllers
         {
             return _productService.InsertProduct(productItem);
         }
+
+        [HttpGet(Name = "GetProductItem")]
+        public List<ProductItem> Get()
+        {
+            return _productService.GetProductItem();
+        }
     }
 }

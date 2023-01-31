@@ -17,5 +17,11 @@ namespace Logic.Logic
             _serviceContext.Products.Add(productItem);
             _serviceContext.SaveChanges();
         }
+
+        public List<ProductItem> GetProductItem()
+        {
+            return _serviceContext.Set<ProductItem>().ToList();
+
+        }
     }
 }

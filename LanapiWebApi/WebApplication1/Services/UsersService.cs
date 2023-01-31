@@ -16,5 +16,5 @@ namespace APIService.Services
             _usersLogic.InsertUserItem(usersItem);
             return usersItem.Id;
         }
-}
+    }
 }

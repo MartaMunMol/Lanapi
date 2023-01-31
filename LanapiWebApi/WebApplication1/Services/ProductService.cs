@@ -1,5 +1,6 @@
 ﻿using Entities.Entities;
 using Logic.Ilogic;
+using Logic.Logic;
 
 namespace APIService.Services
 {
@@ -14,6 +15,10 @@ namespace APIService.Services
         {
             _productLogic.InsertProductItem(productItem);
             return productItem.Id;
+        }
+        public List<ProductItem> GetProductItem()
+        {
+            return _productLogic.GetProductItem();
         }
     }
 }
