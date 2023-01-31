@@ -1,6 +1,7 @@
 ﻿using APIService.IServices;
 using Entities.Entities;
 using Logic.Ilogic;
+using Logic.Logic;
 
 namespace APIService.Services
 {
@@ -15,6 +16,10 @@ namespace APIService.Services
         {
             _usersLogic.InsertUserItem(usersItem);
             return usersItem.Id;
+        }
+        public List<UsersItem> GetUserItem()
+        {
+            return _usersLogic.GetUserItem();
         }
     }
 }

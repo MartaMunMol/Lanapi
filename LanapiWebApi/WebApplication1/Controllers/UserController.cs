@@ -1,4 +1,5 @@
 ﻿using APIService.IServices;
+using APIService.Services;
 using Entities.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -21,6 +22,12 @@ namespace APIService.Controllers
         public int Post([FromBody] UsersItem userItem)
         {
             return _userService.InsertUser(userItem);
+        }
+
+        [HttpGet(Name = "GetUserItem")]
+        public List<UsersItem> Get()
+        {
+            return _userService.GetUserItem();
         }
     }
 }

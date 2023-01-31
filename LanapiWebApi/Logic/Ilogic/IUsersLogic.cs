@@ -10,5 +10,6 @@ namespace Logic.Ilogic
     public interface IUsersLogic
     {
         void InsertUserItem(UsersItem userItem);
+        List<UsersItem> GetUserItem();
     }
 }
