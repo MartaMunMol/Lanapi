@@ -11,7 +11,7 @@ namespace Entities.Entities
     {
         public PersonItem()
         {
-           IsActive = true;
+           //IsActive = true;
         }
         public int Id { get; set; }
         public Guid IdWeb { get; set; }
@@ -21,7 +21,7 @@ namespace Entities.Entities
         public string Email { get; set; }
         public string Phone { get; set; }
         public DateTime Birthday { get; set; }
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
 
         
     }

@@ -32,7 +32,7 @@ namespace APIService.Controllers
         }
 
         [HttpDelete(Name = "DeletePerson")]
-        public void Delete([FromHeader] string userName, [FromHeader] string userPassword, [FromQuery] int id)
+        public void Delete(/*[FromHeader] string userName, [FromHeader] string userPassword,*/ [FromQuery] int id)
         {
             //var validCredentials = _securityService.ValidateUserCredentials(userName, userPassword, 1);
             //if (validCredentials == true)

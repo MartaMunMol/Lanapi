@@ -10,8 +10,8 @@ namespace Entities.Entities
     {
         public ProductItem()
         {
-            IsActive = true;
-            IsPublic = true;
+           IsActive = true;
+           IsPublic = true;
         }
         public int Id { get; set; }
         public Guid IdWeb { get; set; }
@@ -19,7 +19,7 @@ namespace Entities.Entities
         public string Type { get; set; }
         public string  Brand { get; set; }
         public decimal Price { get; set; }
-        public bool IsActive { get; private set; }
-        public bool IsPublic { get; private set; }
+        public bool IsActive { get; set; }
+        public bool IsPublic { get; set; }
     }
 }

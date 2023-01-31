@@ -24,6 +24,7 @@ builder.Services.AddScoped<IPersonService, PersonService>();
 builder.Services.AddScoped<IProductLogic, ProductLogic>();
 builder.Services.AddScoped<IOrderLogic, OrderLogic>();
 builder.Services.AddScoped<IUsersLogic, UsersLogic>();
+builder.Services.AddScoped<IPersonLogic, PersonLogic>();
 
 builder.Services.AddDbContext<ServiceContext>(
     options => options.UseSqlServer("name=ConnectionStrings:ServiceContext"));

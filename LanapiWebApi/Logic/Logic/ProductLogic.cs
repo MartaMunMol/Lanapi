@@ -23,5 +23,16 @@ namespace Logic.Logic
             return _serviceContext.Set<ProductItem>().ToList();
 
         }
+
+        public void DeleteProduct(int id)
+        {
+            var productToDelete = _serviceContext.Set<ProductItem>()
+                 .Where(u => u.Id == id).First();
+
+            productToDelete.IsActive = false;
+
+            _serviceContext.SaveChanges();
+
+        }
     }
 }
