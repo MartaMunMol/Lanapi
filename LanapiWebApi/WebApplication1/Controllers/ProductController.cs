@@ -29,24 +29,12 @@ namespace APIService.Controllers
             return _productService.GetProductItem();
         }
 
-        //public void Delete([FromQuery] int id)
-        //{
 
-        //    _productService.DeleteProduct(id);
-
-        //}
         [HttpDelete(Name = "DeleteProduct")]
-        public void Delete(/*[FromHeader] string userName, [FromHeader] string userPassword,*/ [FromQuery] int id)
+        public void Delete([FromQuery] int id)
         {
-            //var validCredentials = _securityService.ValidateUserCredentials(userName, userPassword, 1);
-            //if (validCredentials == true)
-            //{
             _productService.DeleteProduct(id);
-            //}
-            //else
-            //{
-            //    throw new InvalidCredentialException();
-            //}
+            
         }
     }
 }
