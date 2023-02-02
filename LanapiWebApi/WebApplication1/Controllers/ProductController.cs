@@ -2,6 +2,7 @@
 using APIService.Services;
 using Entities.Entities;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Authentication;
 
 namespace APIService.Controllers
 {
@@ -36,5 +37,12 @@ namespace APIService.Controllers
             _productService.DeleteProduct(id);
             
         }
+
+        [HttpPatch(Name = "Edit Product")]
+        public void Patch(/*[FromHeader] string name,*/ /*[FromHeader] string usuarioPassword,*/ [FromBody] ProductItem productItem)
+        {
+                _productService.UpdateProduct(productItem);
+        }
+
     }
 }

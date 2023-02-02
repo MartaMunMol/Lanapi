@@ -25,5 +25,10 @@ namespace APIService.Services
         {
             _productLogic.DeleteProduct(id);
         }
+
+        public void UpdateProduct(ProductItem productItem)
+        {
+            _productLogic.UpdateProduct(productItem);
+        }
     }
 }
