@@ -1,4 +1,6 @@
-﻿using Entities.Entities;
+﻿using APIService.IServices;
+using Data;
+using Entities.Entities;
 using Logic.Ilogic;
 using Logic.Logic;
 
@@ -30,5 +32,10 @@ namespace APIService.Services
         {
             _productLogic.UpdateProduct(productItem);
         }
+        List<ProductItem> IProductService.GetProductByCriteria(string ProductBrand)
+        {
+            return _productLogic.GetProductByCriteria(ProductBrand);
+        }
+        
     }
 }

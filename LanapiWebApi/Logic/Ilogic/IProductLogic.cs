@@ -11,9 +11,10 @@ namespace Logic.Ilogic
     {
         void InsertProductItem(ProductItem productItem);
         List<ProductItem> GetProductItem();
+
         void DeleteProduct(int id);
         void UpdateProduct(ProductItem productItem);
 
-
+        List<ProductItem> GetProductByCriteria(string Brand);
     }
 }

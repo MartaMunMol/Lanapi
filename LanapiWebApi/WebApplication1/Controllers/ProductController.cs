@@ -7,7 +7,7 @@ using System.Security.Authentication;
 namespace APIService.Controllers
 {
     [ApiController]
-    [Route("[Controller]")]
+    [Route("[Controller]/[action]")]
     public class ProductController
     {
         private readonly ILogger<ProductController> _logger;
@@ -44,5 +44,11 @@ namespace APIService.Controllers
                 _productService.UpdateProduct(productItem);
         }
 
+        [HttpGet(Name = "GetProductsByCriteria")]
+        public List<ProductItem> GetProductByCriteria([FromQuery] string Brand)
+        {
+
+            return _productService.GetProductByCriteria(Brand);
+        }
     }
 }
